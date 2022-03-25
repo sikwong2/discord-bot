@@ -14,7 +14,7 @@ client.on("ready", () => {
 
 client.on("messageCreate", (message) => {
     if (message.content.includes("fortnite") && message.author != client.user){
-        message.reply("we like fortnite")
+        message.reply("We've got a, Number 1 Victory Royale.\nYeah, Fortnite we 'bout to get down (get down).\nTen kills on the board right now.\nJust wiped out Tomato Town.\nMy friend just got downed.\nLook at the map, go to the marked sheet")
     }
     message.react("🍆")
 })
